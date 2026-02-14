@@ -20,7 +20,7 @@ Berikut adalah anggota tim di balik pengembangan **Warung Digital**:
 | Nama Anggota                                                                                                                                        | NIM       | Role                                    | Tanggung Jawab                                                                                                                                                                                                           |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------- | :-------- | :-------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **[Camelia Nurazizah](https://github.com/camelinurazizah)**<br><br><img src="https://github.com/camelinurazizah.png" width="100px;" alt="Camelia"/> | 230511056 | UI/UX Designer                          | • Merancang konsep visual Neo-Brutalism.<br>• Membuat Wireframe dan Mockup antarmuka.<br>• Menentukan palet warna dan tipografi.<br>• Memastikan User Experience (UX) yang intuitif.                                     |
-| **[Diva Baihaqi](https://github.com/Diva-Baihaqi)**<br><br><img src="https://github.com/Diva-Baihaqi.png" width="100px;" alt="Diva"/>               | 230511044 | Fullstack Developer & Database Engineer | • Merancang struktur basis data (ERD) dan normalisasi.<br>• Membangun backend menggunakan PHP Native.<br>• Mengimplementasikan desain frontend dengan Tailwind CSS.<br>• Menangani logika bisnis (Cart, Checkout, Auth). |
+| **[Diva Baihaqi](https://github.com/Diva-Baihaqi)**<br><br><img src="https://github.com/Diva-Baihaqi.png" width="100px;" alt="Diva"/>               | 230511044 | Fullstack Developer & Cloud Engineer | • Merancang struktur basis data (ERD) dan normalisasi.<br>• Membangun backend menggunakan PHP Native.<br>• Mengimplementasikan desain frontend dengan Tailwind CSS.<br>• Menangani logika bisnis (Cart, Checkout, Auth). |
 | **[Hamdan Sadad](https://github.com/HamdanSadad)**<br><br><img src="https://github.com/HamdanSadad.png" width="100px;" alt="Hamdan"/>               | 230511045 | System Analyst & Tester                 | • Menganalisis kebutuhan sistem (Requirement Gathering).<br>• Membuat diagram alur sistem (Flowchart, Use Case).<br>• Melakukan pengujian sistem (Black Box Testing).<br>• Menyusun dokumentasi manual pengguna.         |
 
 ---
@@ -114,4 +114,5 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek di komputer lokal Anda:
 **Hak Cipta © 2026 Kelompok 5.**
 
 Dilarang memperbanyak sebagian atau seluruh isi buku ini tanpa izin tertulis dari penyusun.
+
 
