@@ -1,5 +1,10 @@
 # Warung Digital - Neo-Brutalism E-Commerce Platform
 
+![PHP](https://img.shields.io/badge/PHP-8.0%2B-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![License](https://img.shields.io/github/license/Diva-Baihaqi/Warung-Digital?style=for-the-badge)
+![Repo Size](https://img.shields.io/github/repo-size/Diva-Baihaqi/Warung-Digital?style=for-the-badge)
+
 Aplikasi web e-commerce modern dengan desain **Neo-Brutalism** unik, cepat, dan intuitif. Dibangun khusus untuk memberikan pengalaman belanja yang menyenangkan dan anti-mainstream.
 
 ![Cover](<documentation/screenshot/Bagian%20D%20Antarmuka%20Pengguna%20Pelanggan%20(Front-End)/1.%20Halaman%20Utama%20(Homepage).png>)
