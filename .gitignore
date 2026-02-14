@@ -1,0 +1,9 @@
+vendor/
+.env
+.DS_Store
+*.log
+node_modules/
+.idea/
+.vscode/
+tmp/
+thumbs.db

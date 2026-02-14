@@ -1,0 +1,139 @@
+// Link: https://dbdiagram.io/
+
+Table admins {
+  id int [pk, increment]
+  username varchar(50) [unique, not null]
+  password varchar(255) [not null]
+  created_at timestamp [default: `current_timestamp`]
+}
+
+Table pelanggan {
+  id int [pk, increment]
+  nama varchar(100)
+  email varchar(100) [unique]
+  password varchar(255)
+  alamat text
+  created_at timestamp [default: `current_timestamp`]
+}
+
+Table kategori {
+  id int [pk, increment]
+  nama_kategori varchar(50) [not null]
+  slug varchar(100)
+}
+
+Table produk {
+  id int [pk, increment]
+  kategori_id int
+  nama_produk varchar(100) [not null]
+  harga decimal(10,0) [not null]
+  deskripsi text
+  spesifikasi text
+  gambar varchar(255)
+  stok int [default: 100]
+  created_at timestamp [default: `current_timestamp`]
+}
+
+Table pesanan {
+  id int [pk, increment]
+  pelanggan_id int
+  total_harga decimal(12,0)
+  status enum('pending','paid','shipped','completed','cancelled','success') [default: 'pending']
+  bukti_pembayaran varchar(255)
+  tanggal_pesanan timestamp [default: `current_timestamp`]
+}
+
+Table detail_pesanan {
+  id int [pk, increment]
+  pesanan_id int
+  produk_id int
+  jumlah int
+  harga_satuan decimal(10,0)
+}
+
+Table produk_akun {
+  id int [pk, increment]
+  produk_id int [not null]
+  jenis_akun varchar(50) [default: 'akun']
+  data_akun text [not null]
+  status enum('tersedia','terjual') [default: 'tersedia']
+  pesanan_id int
+  created_at timestamp [default: `current_timestamp`]
+}
+
+Table review {
+  id int [pk, increment]
+  produk_id int
+  pelanggan_id int
+  rating int
+  komentar text
+  created_at timestamp [default: `current_timestamp`]
+}
+
+Table blog {
+  id int [pk, increment]
+  judul varchar(200)
+  slug varchar(255)
+  konten text
+  gambar varchar(255)
+  kategori varchar(50)
+  tanggal date
+}
+
+Table faq {
+  id int [pk, increment]
+  pertanyaan varchar(255)
+  jawaban text
+}
+
+Table pesan {
+  id int [pk, increment]
+  nama varchar(255) [not null]
+  email varchar(255) [not null]
+  pesan text [not null]
+  created_at timestamp [default: `current_timestamp`]
+}
+
+// Social Features (Expanded based on logic)
+Table social_likes {
+  id int [pk, increment]
+  user_id int
+  target_type varchar(50)
+  target_id int
+  created_at timestamp [default: `current_timestamp`]
+}
+
+Table social_shares {
+  id int [pk, increment]
+  user_id int
+  platform varchar(50)
+  content_id int
+  created_at timestamp [default: `current_timestamp`]
+}
+
+Table social_follows {
+  id int [pk, increment]
+  follower_id int
+  following_id int
+  created_at timestamp [default: `current_timestamp`]
+}
+
+// Relationships
+
+Ref: produk.kategori_id > kategori.id [delete: set null]
+
+Ref: pesanan.pelanggan_id > pelanggan.id
+
+Ref: detail_pesanan.pesanan_id > pesanan.id [delete: cascade]
+Ref: detail_pesanan.produk_id > produk.id
+
+Ref: produk_akun.produk_id > produk.id [delete: cascade]
+Ref: produk_akun.pesanan_id > pesanan.id [delete: set null]
+
+Ref: review.produk_id > produk.id
+Ref: review.pelanggan_id > pelanggan.id
+
+Ref: social_likes.user_id > pelanggan.id
+Ref: social_shares.user_id > pelanggan.id
+Ref: social_follows.follower_id > pelanggan.id
+Ref: social_follows.following_id > pelanggan.id
