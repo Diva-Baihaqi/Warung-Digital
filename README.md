@@ -1,7 +1,7 @@
 # Warung Digital - E-Commerce Platform
 
 <div align="center">
-  <img src="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F7AAF6&center=true&width=435&lines=CAMELIA+NURAZIZAH+(230511056);DIVA+BAIHAQI+(230511044);HAMDAN+SADAD+(230511045)" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Space+Grotesk&weight=900&size=32&duration=3000&pause=1000&color=000000&center=true&vCenter=true&width=600&lines=Welcome+to+Warung+Digital;Neo-Brutalism+Style+E-Commerce;Built+with+PHP+Native+%26+Tailwind;Fast,+Secure,+%26+Unique+Experience;Est.+2026+by+Group+5" />
 </div>
 
 ![PHP](https://img.shields.io/badge/PHP-8.0%2B-777BB4?style=for-the-badge&logo=php&logoColor=white)
