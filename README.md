@@ -1,4 +1,4 @@
-# Warung Digital - Neo-Brutalism E-Commerce Platform
+# Warung Digital - E-Commerce Platform
 
 ![PHP](https://img.shields.io/badge/PHP-8.0%2B-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
@@ -114,3 +114,4 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek di komputer lokal Anda:
 **Hak Cipta © 2026 Kelompok 5.**
 
 Dilarang memperbanyak sebagian atau seluruh isi buku ini tanpa izin tertulis dari penyusun.
+
