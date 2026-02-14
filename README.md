@@ -1,5 +1,9 @@
 # Warung Digital - E-Commerce Platform
 
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Space+Grotesk&weight=900&size=32&duration=3000&pause=1000&color=000000&center=true&vCenter=true&width=600&lines=Welcome+to+Warung+Digital;Neo-Brutalism+Style+E-Commerce;Built+with+PHP+Native+%26+Tailwind;Fast,+Secure,+%26+Unique+Experience;Est.+2026+by+Group+5" alt="Typing SVG" />
+</div>
+
 ![PHP](https://img.shields.io/badge/PHP-8.0%2B-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![License](https://img.shields.io/github/license/Diva-Baihaqi/Warung-Digital?style=for-the-badge)
