@@ -116,8 +116,11 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek di komputer lokal Anda:
 ## 📜 Hak Cipta
 
 **Hak Cipta © 2026 Kelompok 5.**
+🎓 **Muhammadiyah University of Cirebon**
+💻 **Informatics Engineering**
 
 Dilarang memperbanyak sebagian atau seluruh isi buku ini tanpa izin tertulis dari penyusun.
+
 
 
 
